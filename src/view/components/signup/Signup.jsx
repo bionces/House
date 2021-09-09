@@ -1,5 +1,5 @@
 import css from './Signup.module.css'
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 export function Signup() {
@@ -41,7 +41,7 @@ export function Signup() {
                     <p className={css.top_right}>Corporate Membership</p>
                 </div>
                     <div className={css.google}>
-                    <img src="./img/google.png"/>
+                    <img src="./img/google.png" alt=""/>
                     <button>Connect with Google</button>
                     </div>
                 <form className={css.bottom} required>
@@ -59,7 +59,7 @@ export function Signup() {
                     <label for="id">I allow Fasthome to contact me via e-mail, SMS, etc for marketing and promotional purposes.</label>
                     </div>
                     <button>SIGN UP</button>
-                    <p>Already a member? <a className={css.signIn__a} href="#">log in</a> now!</p>
+                    <p>Already a member? <link className={css.signIn__a} to="/">log in</link> now!</p>
                 </form>
             </div>
         </div>

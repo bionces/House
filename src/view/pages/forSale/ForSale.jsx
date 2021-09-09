@@ -6,7 +6,6 @@ import { Block3 } from "./block3/Block3";
 import { Block4 } from "./block4/Block4";
 import { Block5 } from "./block5/Block5";
 import { Footer } from "./footer/Footer";
-import { NavLink, Link } from "react-router-dom";
 
 export const ForSale = (props) => {
   const [data, setData] = useState([]);

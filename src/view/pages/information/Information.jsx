@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import css from './information.module.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
@@ -8,7 +8,7 @@ function SampleNextArrow(props) {
     const { onClick } = props;
     return (
         <img 
-        src="/img/arrow.png"
+        src="/img/arrow.png" alt=""
         className={css.arrowNext}
         onClick={onClick}
         />
@@ -18,7 +18,7 @@ function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
         <img 
-        src="/img/arrow.png"
+        src="/img/arrow.png" alt=""
         className={css.arrowPrev}
         onClick={onClick}
         />

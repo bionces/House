@@ -1,6 +1,5 @@
 import css from "./../forSale.module.css";
 import lopa from '../../../assets/img/lopa.svg'
-import {useState, useEffect} from 'react'
 export const Block1 = (props) => {
 
 

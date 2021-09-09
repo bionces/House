@@ -3,11 +3,11 @@ import React from "react";
 import css from "./onMap.module.css";
 import {useEffect, useState} from "react";
 
-import ReactMapGL, {Marker, Popup} from 'react-map-gl';
+import ReactMapGL, {Marker} from 'react-map-gl';
 
 export const OnMap = () => {
     const [data, setData] = useState([]);
-    const [selectedMap, setSelectedMap] = useState({})
+    const [setSelectedMap] = useState({})
 
     useEffect(() => {
         fetch("https://60f1203338ecdf0017b0fa4e.mockapi.io/teamHouse")

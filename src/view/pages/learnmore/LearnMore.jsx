@@ -19,7 +19,7 @@ function LearnMore () {
         .then((data) => {
           setData(data);
         });
-    }, []);
+    },[id]);
 
     return (
       <div className="container">

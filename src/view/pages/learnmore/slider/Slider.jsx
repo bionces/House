@@ -13,16 +13,16 @@ class Slider extends React.Component {
                            transitionTime="1000" thumbWidth="221px"
                           width="901px" emulateTouch="true" >
                     <div>
-                        <img src="/img/imgslider.png"/>
+                        <img src="/img/imgslider.png" alt=""/>
                     </div>
                     <div>
-                        <img src="/img/imgslider.png"/>
+                        <img src="/img/imgslider.png" alt=""/>
                     </div>
                     <div>
-                        <img src="/img/imgslider.png"/>
+                        <img src="/img/imgslider.png" alt=""/>
                     </div>
                     <div>
-                        <img src="/img/imgslider.png"/>
+                        <img src="/img/imgslider.png" alt=""/>
                     </div>
                 </Carousel>
 

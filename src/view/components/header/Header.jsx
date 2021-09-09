@@ -8,7 +8,6 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import {useHistory} from "react-router-dom";
 import  {useState} from "react";
-import {ModalWindow} from "./ModalWindow";
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -37,7 +36,6 @@ export const Header = (props) => {
     setOpen(false);
   };
   //// MAKE SURE
-  const allclasses = useStyles();
   const [show, setShow] = React.useState(false);
 
   const handleShow = () => {
@@ -75,7 +73,7 @@ export const Header = (props) => {
             Information
             </Link>
           <li>
-            <a href="#">Location</a>
+            <Link to="/">Location</Link>
           </li>
         </ul>
         <div className={css.button_log}>
@@ -153,9 +151,9 @@ export const Header = (props) => {
                       type="password"
                       placeholder="Password"
                   />
-                  <a className={css.login__a} href="#">
+                  <link className={css.login__a} to={'/'}>
                     I forget my password
-                  </a>
+                  </link>
 
                   <Button
                       className={css.loginButton}
